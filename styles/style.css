@@ -1,0 +1,59 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button, summary {
+	cursor: pointer;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#000;
+	--color-wit:#fff;
+	--color-starbucks:#006241;
+	--color-starlightg:#00754a;
+	--color-ligchtgreen:#d4e9e2;
+	--color-housegreen:#1e3932;
+	--color-warmneutraal:#f2f0eb;
+	--color-coolneutraal:#f9f9f9;
+
+
+}
+
+
+
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+body {
+  color:var(--color-text);
+  background-color:var(--color-wit);
+}
+
+nav {
+	background-color: var(--color-wit);
+}
+
+nav img {
+	width: 5em;
+	height: 3em;
+}
+
