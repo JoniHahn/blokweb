@@ -1,16 +1,20 @@
 /**************/
 /* CSS REMEDY */
 /**************/
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
 
-button, summary {
-	cursor: pointer;
+* {
+	margin: 0;
+	padding: 0;
 }
 
 
-
+button, summary {
+	cursor: pointer;
+}
 
 
 /*********************/
@@ -26,15 +30,10 @@ button, summary {
 	--color-housegreen:#1e3932;
 	--color-warmneutraal:#f2f0eb;
 	--color-coolneutraal:#f9f9f9;
+	--color-tekst:#6c6c6c;
 
 
 }
-
-
-
-
-
-
 
 
 /****************/
@@ -52,8 +51,64 @@ nav {
 	background-color: var(--color-wit);
 }
 
-nav img {
+img {
 	width: 5em;
 	height: 3em;
 }
 
+.home {
+	background-image: url(../images/Naamloos-5.png);
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	flex-direction: column;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	height: 498.66px;
+	width: 100%;
+}
+
+.img2 {
+	width: 100%;
+	height: 10.33em;
+}
+
+h1 {
+	color:var(--color-text) ;
+}
+
+p {
+	color:var(--color-tekst);
+}
+
+a {
+	color:var(--color-starbucks);
+	border: 2px solid var(--color-starlightg);
+	text-decoration: none;
+	border-radius: 6em;
+	font-family:  Sans,system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-left: 3em;
+}
+
+section a {
+	color:var(--color-wit);
+	text-decoration: none;
+	border: 1.5px solid var(--color-wit);
+	border-radius: 6em;
+	font-family:  Sans,system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-left: 3em;
+	margin-bottom: 2em;
+}

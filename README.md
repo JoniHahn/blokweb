@@ -46,7 +46,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/img1.jpeg" width="375px" alt="Dit is de home pagina.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Our Coffees
   <img src="readme-images/img2.jpeg" width="375px" alt="Dit is een pagina waar je verschillende informatie zal vinden over het assortiment van Starbucks.">
  
 </details>
@@ -62,9 +62,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+   Wanneer de spreker kwam zij die dat het voor de screenreader gebruikt wordt het handig is als headers eerst komen dan een plaatje, zodat een blind persoon weet waarbij een plaatje hoort.
+   Terugdekkend op de test kwam dat op mijn website ook naar voren.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+   Dit ga ik oplossen door headers boven plaatjes of bepaalde secties te plaatsen.
 
 
   #### Muis en Toetsenbord 
@@ -80,9 +81,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De Starbucks website heeft geen Dark mode.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Om de dark mode op te lossen wil ik mijn eigen dark mode voor de website verzinnen. Ik denk namelijk dat nog best mogellijk is ,omdat 
+  de meeste starbucks kleuren groen zijn en deze kleuren passen ook als je bijvoorbeeld een zwarte achtergrond hebt.
 
 </details>
 
