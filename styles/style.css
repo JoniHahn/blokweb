@@ -44,7 +44,16 @@ button, summary {
 
 body {
   color:var(--color-text);
-  background-color:var(--color-wit);
+  background-color:var(--color-coolneutraal);
+}
+
+footer {
+	background-color: var(--color-wit);
+	margin-top: 2em;
+}
+
+hr {
+	margin: 1em;
 }
 
 nav {
@@ -56,59 +65,177 @@ img {
 	height: 3em;
 }
 
-.home {
-	background-image: url(../images/Naamloos-5.png);
-	background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-	flex-direction: column;
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-start;
-	height: 498.66px;
-	width: 100%;
-}
-
-.img2 {
-	width: 100%;
-	height: 10.33em;
-}
-
 h1 {
 	color:var(--color-text) ;
+	margin-top: 1.5em;
+	font-size: 27px;
+	font-family: SoDoSans,sans-serif;
+	font-weight: 500;
+	margin-left: 16px;
+	margin-right: 16px;
+	letter-spacing: 1px;
+}
+
+h2 {
+	margin-left: 16px;
+	margin-right: 16px;
+	color: var(--color-text);
+	font-size: 16px;
+	font-family: SoDoSans,sans-serif;
+	letter-spacing: 1px;
+}
+
+h3 {
+	margin-left: 16px;
 }
 
 p {
 	color:var(--color-tekst);
+	margin-top: 1.5em;
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-bottom: 16px;
 }
 
-a {
-	color:var(--color-starbucks);
-	border: 2px solid var(--color-starlightg);
-	text-decoration: none;
-	border-radius: 6em;
-	font-family:  Sans,system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
-	font-size: 14px;
-	font-weight: 600;
-	padding-left: 16px;
-	padding-right: 16px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	margin-left: 3em;
+li {
+	list-style: none;
 }
+
+main img {
+	width: 100%;
+	height: 10.33em;
+}
+
+main img:nth-of-type(2) {
+	height: 288.23px;
+	width: 343px;
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
 
 section a {
 	color:var(--color-wit);
 	text-decoration: none;
 	border: 1.5px solid var(--color-wit);
 	border-radius: 6em;
-	font-family:  Sans,system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
-	font-size: 14px;
+	font-family: SoDoSans,sans-serif;
+	font-size: .87em;
 	font-weight: 600;
 	padding-left: 16px;
 	padding-right: 16px;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	margin-left: 3em;
-	margin-bottom: 2em;
+	padding: .5em 1em;
+
+}
+
+main li {
+	box-shadow: 3px 3px 3px var(--color-warmneutraal);
+	margin-left: 1em;
+	margin-right: 1em;
+	list-style: none;
+}
+
+main li:first-child {
+	background-color:var(--color-wit);
+	width: 343px;
+	height: 345px;
+	margin-top: 8em;
+}
+
+main li:nth-child(2) {
+	background-color:var(--color-wit);
+	width: 343px;
+	height: 345px;
+	margin-top: 2em;
+}
+
+main li:nth-child(3) {
+	background-color:var(--color-wit);
+	width: 343px;
+	height: 410px;
+	margin-top: 2em;
+
+}
+
+main a {
+	margin-left: 16px;
+	text-decoration: none;
+	color: var(--color-starlightg);
+	border: 2px solid var(--color-starlightg);
+	border-radius: 3em;
+	padding: 8px 16px 8px 16px;
+	font-size: 14px;
+	font-family: SoDoSans,sans-serif;
+}
+
+main p:nth-of-type(3) {
+	margin-bottom: 6em;
+}
+
+.home {
+	background-image: url(../images/Naamloos-5.png);
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+	display: flex;
+	justify-content: end;
+	align-items: start;
+    gap: 1.5em;
+    height: 498.66px;
+	width: 100%;
+	padding: 1em;
+}
+
+footer {
+	padding: 1em;
+}
+
+footer details {
+	display: flex;
+	flex-direction: column;
+	margin-top: 2em;
+}
+footer details:first-child {
+	margin-top: 4em;
+}
+
+footer summary {
+	font-size: 23px;
+}
+
+footer a {
+	text-decoration: none;
+	color: var(--color-tekst);
+	font-family:SoDoSans,sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 2em;
+}
+
+footer ul:nth-of-type(1) {
+	display: flex;
+	flex-direction: row;
+	justify-self: start;
+	padding-left: 1em;
+}
+
+footer ul li a img {
+	width: 36px;
+	height: 36px;
+	margin-left: 1em;
+}
+
+footer ul:nth-of-type(2) li a {
+	text-decoration: none;
+	color: var(--color-text);
+	font-family:SoDoSans,sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	display: flex;
+	gap: 2em;
 }
