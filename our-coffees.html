@@ -5,57 +5,293 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Coffees</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/ourcoffee-style.css">
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 <body>
     <header>
-        <nav>
-			<img src="images/Starbucks-Logo.png" alt="Starbucks logo">
-			<!-- https://logos-world.net/starbucks-logo/ -->
-			<!--<ul>
-				<li><a href="#">Menu</a></li>
-				<li><a href="our-coffees.html">Our Coffees</a></li>
-				<li><a href="#">Bezorging</a></li>
-				<li><a href="#">Verantwoordelijkheid</a></li>
-				<li><a href="#">Carrière</a></li>
-			</ul>-->
-		</nav>
-		<section class="onze">
-            <h2>Onze koffie</h2>
-			<a href="#">Bestel nu</a>
-			<a href="#">Vind jouw dichtsbijzijnde locatie</a>
-		</section>
-    </header>
-    <main></main>
+		<nav>
+			<div>
+				<a href="index.html"><img src="images/Starbucks-Logo.png" alt="Starbucks logo waar je op kan drukken."></a>
+				<!-- https://logos-world.net/starbucks-logo/ -->
 
-    <details>
-        <summary> <h3>Over ons</h3></summary>
-        <a href="#">Oven ons</a>
-        <a href="#">Onze koffies</a>
-        <a href="#">Starbucks Verhalen & Nieuws</a>
-        <a href="#">Starbucks Ready to Drink</a>
-        <a href="#">Zuivelalternatieven</a>
-    </details>
-    <details>
-        <summary><h3>Contact</h3></summary>
-        <a href="#">Werken bij Starbucks</a>
-        <a href="#">Contact</a>
-    </details>
-    <details>
-        <summary><h3>Social Impact</h3></summary>
-        <a href="#">Verantwoordelijkheid</a>
-        <a href="#">COVID-19</a>
-    </details>
-    <hr>
-    <ul>
-        <li><a href="#"><img src="#" alt="Facebook logo"></a></li>
-        <li><a href="#"><img src="#" alt="Instgram logo"></a></li>
-        <li><a href="#"><img src="#" alt="Twitter logo"></a></li>
-    </ul>
-    <a href="#">Privacy Policy</a>
-    <a href="#">Terms of Use</a>
-    <a href="#">Cookie Policy</a>
-    
+			<button aria-label="hamburger menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			  </button>
+			</div>
+
+			<section>
+				<ul>
+					<li><a aria-label="Menu" href="#">Menu</a></li>
+					<li><a aria-label="Our coffees" href="our-coffees.html">Our Coffees</a></li>
+					<li><a aria-label="Bezorging" href="#">Bezorging</a></li>
+					<li><a aria-label="Verandwoordelijkheid" href="#">Verantwoordelijkheid</a></li>
+					<li><a aria-label="Carrière" href="#">Carrière</a></li>
+				</ul>
+				<hr>
+				<a aria-label="Find a store" href="#">Find a store</a>
+				<details>
+					<summary aria-label="Taal veranderen" >  NL</summary>
+					<a aria-label="Nederlandse" href="#">Nederlands</a>
+					<a aria-label="Engels" href="#">Engels</a>
+				</details>
+			</section>
+			
+		</nav>
+	</header>
+    <main>
+        <section>
+            <h1>Onze koffie</h1>
+            <div>
+                <a aria-label="Bestel nu" href="#">Bestel nu</a>
+			    <a aria-label="locatie vinden" href="#">Vind jouw dichtsbijzijnde locatie</a>
+            </div>
+		</section>
+
+        <section>
+            <h2> Onze Koffie</h2>
+            <p>Bij Starbucks gaat het sinds het begin al om de kwaliteit van de koffie. Onze passie voor koffie wordt alleen overtroffen door onze liefde om het te delen.</p>
+            <p>Of je nu thuis geniet van een momentje voor jezelf of samen met gasten een nieuwe zak koffiebonen opentrekt het is altijd een ervaring, een explosie van aroma en een gevoel van thuiskomen. </p>
+            <p>Met zoveel Starbucks koffiebonen om uit te kiezen is het moeilijk om jouw persoonlijke perfecte kop te vinden. We hebben je graag opweg.</p>
+        </section>
+
+        <section>
+            <h2>Het Starbucks Roast Spectrum</h2>
+            <p>Onze koffies zijn ingedeeld op basis van drie brandprofielen: Blond, Medium en Dark, zodat je de smaak en intensiteit kunt vinden die bij je past.</p>
+            <p><a aria-label="Blonde roast" href="#">Blonde Roasts</a> Starbucks® Blonde Roast-koffie is het minst lang gebrand en heeft daardoor een zachte en lichtzoete smaak. Het is een benaderbare en smaakvolle kop koffie met lichte hints van de branding.</p>
+            <p><a aria-label="Medium roast" href="#">Medium Roast</a> Smooth en gebalanceerd, onze medium roasts zijn perfect voor elke koffiemomentje.</p>
+            <p><a aria-label="Dark roast" href="#">Dark Roast</a> Deze koffies zijn krachtiger door het lange brandingsproces. De robuuste smaken komen naar voren door de intense branding en produceren een koffie met rijke en volle smaken.</p>
+        </section>
+
+        <section>
+            <ul>
+                <li>
+                    <h3>Starbucks Blonde Roast</h3>
+                    <img src="images/img1.jpeg" alt="">
+                    <a aria-label="Blonde roast" href="#">Blonde Roast</a>
+                </li>
+                <li>
+                    <h3>Colombia Nariño</h3>
+                    <img src="images/img2.png" alt="">
+                    <a aria-label="Medium roast" href="#">Medium Roast</a>
+                </li>
+                <li>
+                    <h3>Pike Place</h3>
+                    <img src="images/im3.jpeg" alt="">
+                    <a aria-label="Medium roast" href="#">Medium Roast</a>
+                </li>
+                <li>
+                    <h3>Guatemala</h3>
+                    <img src="images/img4.png" alt="">
+                    <a aria-label="Medium roast" href="#">Medium Roast</a>
+                </li>
+                <li>
+                    <h3>House Blend</h3>
+                    <img src="images/img5.jpeg" alt="">
+                    <a aria-label="Medium roast" href="#">Medium Roast</a>
+                </li>
+                <li>
+                    <h3>Ethiopia</h3>
+                    <img src="images/img6.png" alt="">
+                    <a aria-label="Medium roast" href="#">Medium Roast</a>
+                </li>
+                <li>
+                    <h3>Kenya</h3>
+                    <img src="images/Kenya.png.png" alt="">
+                    <a aria-label="Medium roast" href="#">Medium Roast</a>
+                </li>
+                <li>
+                    <h3>Sumatra</h3>
+                    <img src="images/Sumatra.png.png" alt="">
+                    <a aria-label="dark roast" href="#">Dark Roast</a>
+                </li>
+                <li>
+                    <h3>Caffe Verona</h3>
+                    <img src="images/Caffe-Verona-Coffee-Bag-C04-RESIZED.jpg.jpeg" alt="">
+                    <a aria-label="dark roast" href="#">Dark Roast</a>
+                </li>
+                <li>
+                    <h3>Decaf Espresso Roast</h3>
+                    <img src="images/Decaf-Espresso-Roast-Coffee-Bag-C04-RESIZED_0.jpg.jpeg" alt="">
+                    <a aria-label="dark roast" href="#">Dark Roast</a>
+                </li>
+                <li>
+                    <h3>Espresso Roast</h3>
+                    <img src="images/Espresso-Roast-Coffee-Bag-C04-RESIZED.jpg.jpeg" alt="">
+                    <a aria-label="dark roast" href="#">Dark Roast</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hoe maak je de perfecte kop koffie?</h2>
+            <p>Wellicht heb je er nog niet aan gedacht, maar wist je dat de verschillende brouwmethoden binnen Starbucks allemaal andere smaken in de koffie naar voren brengen. Laat onze kennis je helpen om de volle potentie te ontgrendelen van jouw favoriete koffie - voor de perfecte kop, elke keer opnieuw.</p>
+        </section>
+        <section>
+            <div>
+                <img src="images/Our_Coffee_C09_Press.png.png" alt="">
+            </div>
+            <div>
+                <h4>Coffee press</h4>
+                <p>Brewing with a coffee press retains the precious natural oils that paper filters absorb, and extracts the coffee’s full flavour while giving it a consistency that’s thick and rich.</p>
+                <ol>
+                    <li>
+                        <h5>Grind and measure</h5>
+                        <p>Remember, coffee is like produce. Buy it often in small quantities to enjoy it at the peak of freshness.
+                            <br><em>TIP: Remember, coffee is like produce. Buy it often in small quantities to enjoy it at the peak of freshness.</em>
+                        </p>
+                    </li>
+                    <li>
+                        <h5>dd hot water</h5>
+                        <p>To give your coffee the best possible flavour, use filtered or bottled water.
+                            <br><em>TIP: To give your coffee the best possible flavour, use filtered or bottled water.</em>
+                        </p>
+                    </li>
+                    <li>
+                        <h5>Place plunger and brew</h5>
+                        <p>Put the plunger back on the press without pushing it down, and let the coffee brew for 4 minutes.</p>
+                    </li>
+                    <li>
+                        <h5>Press and pour</h5>
+                        <p>Gently push down the plunger until it reaches the bottom of the press, and enjoy</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div>
+                <img src="images/Our Coffee_C09_Cone.png.png" alt="">
+            </div>
+            <div>
+                <h4>Pour-over</h4>
+                <p>Pour-over is a beautifully simple and accessible way to brew a single cup of coffee with clean, fully developed flavour and body.</p>
+                <ol>
+                    <li>
+                        <h5>Measure and boil</h5>
+                        <p>Measure as much water as you’re going to use to brew, plus a little extra for rinsing the filter, and bring it to a boil.</p>
+                    </li>
+                    <li>
+                        <h5>Pre-moisten filter</h5>
+                        <p>Briefly rinse the paper filter with hot water, and discard the rinse water. This will give your coffee the purest flavour possible.
+                        </p>
+                    </li>
+                    <li>
+                        <h5>Measure and grind</h5>
+                        <p>Next, measure your coffee. For pour-over, use coffee ground for a paper cone. It’s a relatively fine grind that looks like granulated sugar. Measure 2 tablespoons of coffee per 6 ounces of water.</p>
+                    </li>
+                    <li>
+                        <h5>Pour and pause</h5>
+                        <p>Use hot water that’s just off the boil and fill the cone halfway to saturate the grounds. Pause for 10 seconds and let the coffee bloom. This allows the coffee to hydrate evenly and begin to develop flavour.</p>
+                    </li>
+                    <li>
+                        <h5>Complete the pour and enjoy</h5>
+                        <p>To make your pour-over more consistent, use a timer. It should take about 3 minutes to make a cup. <br><em>TIP: To make your pour-over more consistent, use a timer. It should take about 3 minutes to make a cup.</em></p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div>
+                <img src="images/Our_Coffee_C09_Iced.png.png" alt="">
+            </div>
+            <div>
+                <h4>Iced Pour-Over</h4>
+                <p>Iced pour-over is a simple and approachable way to make rich, full-flavoured iced coffee one pitcher at a time.</p>
+                <ol>
+                    <li>
+                        <h5>Pre-moisten filter</h5>
+                        <p>Briefly rinse the paper filter with hot water, and discard the rinse water. This will give your coffee the purest flavour possible.</p>
+                    </li>
+                    <li>
+                        <h5>Choose the right grind</h5>
+                        <p>For pour-over, use coffee ground for a paper cone. It’s a relatively fine grind that looks like granulated sugar.</p>
+                    </li>
+                    <li>
+                        <h5>Measure</h5>
+                        <p>Iced pour-over is brewed at double strength and diluted with ice, so measure 4 tablespoons of coffee for every 6 ounces of hot water.</p>
+                    </li>
+                    <li>
+                        <h5>Pour and pause</h5>
+                        <p>Use hot water that’s just off the boil and fill the cone halfway to saturate the grounds. Pause for 10 seconds and let the coffee bloom. This lets it hydrate evenly and begin to develop flavour.
+                        </p>
+                    </li>
+                    <li>
+                        <h5>Complete the pour</h5>
+                        <p>Slowly add the rest of the water, pouring in small, steady circles to cover all the grounds.</p>
+                    </li>
+                    <li>
+                        <h5>Add ice</h5>
+                        <p>African coffees are popular for iced pour-over because of their superb juicy body, and tangy, sparkling citrus notes. <br><em>TIP: African coffees are popular for iced pour-over because of their superb juicy body, and tangy, sparkling citrus notes.</em></p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <div>
+                <img src="images/Our Coffee_C09_Brewer.png.png" alt="">
+            </div>
+            <div>
+                <h4>Coffee Brewer</h4>
+                <p>Drip coffee is a convenient way to make great coffee. With the right grind and pure water, you can brew a fantastic cup of coffee in a coffee brewer.</p>
+                <ol>
+                    <li>
+                        <h5>Choose the right grind</h5>
+                        <p>For a flat bottom filter, use a medium grind that resembles sea salt. Cone filters use a finer grind that resembles granulated sugar.</p>
+                    </li>
+                    <li>
+                        <h5>Measure</h5>
+                        <p>Use 2 tablespoons of freshly ground coffee for every 6 ounces of water.</p>
+                    </li>
+                    <li>
+                        <h5>Brew and enjoy</h5>
+                        <p><em>TIP: Brewed coffee is always best fresh, so make as much as you’ll enjoy in a sitting. Reheating coffee can dull the flavour.</em></p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <hr>
+    </main>
+
+    <footer>
+		<details>
+			<summary aria-label="Dropdown Over ons" >Over ons <img src="images/downarrow.png" alt="een pijltje naar beneden"></summary>
+			<a aria-label="Over ons" href="#">Oven ons</a>
+			<a aria-label="Onze koffies" href="#">Onze koffies</a>
+			<a aria-label="Starbucks verhalen en nieuws" href="#">Starbucks Verhalen & Nieuws</a>
+			<a aria-label="Starbucks ready to drink" href="#">Starbucks Ready to Drink</a>
+			<a aria-label="Zuivelalternatieven" href="#">Zuivelalternatieven</a>
+		</details>
+		<details>
+			<summary aria-label="dropdown contact" >Contact <img src="images/downarrow.png" alt="een pijltje naar beneden"></summary>
+			<a aria-label="Werken bij Starbucks" href="#">Werken bij Starbucks</a>
+			<a aria-label="Contact" href="#">Contact</a>
+		</details>
+		<details>
+			<summary aria-label="dropdown Social impact" >Social Impact <img src="images/downarrow.png" alt="een pijltje naar beneden"></summary>
+			<a aria-label="Verandwoordelijkheid" href="#">Verantwoordelijkheid</a>
+			<a aria-label="Covid-19" href="#">COVID-19</a>
+		</details>
+		<hr>
+		<ul>
+			<li><a aria-label="facebook link" href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			<!--https://nl.pinterest.com/pin/facebook--492651646739571491/-->
+			<li><a aria-label="instagram link" href="#"><img src="images/instagram.png" alt="Instgram logo"></a></li>
+			<!--https://icon-icons.com/nl/pictogram/instagram-zwart-logo/147122-->
+			<li><a aria-label="twitter link" href="#"><img src="images/tiktok.png" alt="Twitter logo"></a></li>
+			<!--https://www.flaticon.com/free-icon/tiktok_5969008-->
+		</ul>
+		<ul>
+			<li><a aria-label="Privacy policy" href="#">Privacy Policy</a></li>
+			<li><a aria-label="Terms of use" href="#">Terms of Use</a></li>
+			<li><a aria-label="Cookie policy" href="#">Cookie Policy</a></li>
+		</ul>
+		
+	</footer>
+    <script defer src="scripts/script.js"></script>
 </body>
 </html>

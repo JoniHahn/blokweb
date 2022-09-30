@@ -1,0 +1,106 @@
+@import url("algemeen-style.css");
+
+main img {
+	width: 100%;
+	height: auto;
+}
+
+main img:nth-of-type(2) {
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+main section:nth-of-type(1) {
+    gap: 1.5em;
+    height: 498.66px;
+	width: 100%;
+    background-image: linear-gradient(var(--color-starbucks),var(--color-housegreen));
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-block: 1em;
+}
+
+
+ main section:nth-of-type(1) a {
+	color:var(--color-wit);
+	text-decoration: none;
+	border: 1.5px solid var(--color-wit);
+	border-radius: 6em;
+	font-family: SoDoSans,sans-serif;
+	font-size: .87em;
+	font-weight: 600;
+	text-align: center;
+	width: fit-content;
+}
+
+main h2:nth-of-type(2) {
+	margin-left: 1em;
+	margin-right: 1em;
+	color: var(--color-text);
+	font-size: 1em;
+	font-family: SoDoSans,sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+
+main li {
+	box-shadow: 3px 3px 3px var(--color-warmneutraal);
+	margin-left: 1em;
+	margin-right: 1em;
+	list-style: none;
+	padding-bottom: 1em;
+	background-color:var(--color-wit);
+	margin-bottom: 2em;
+}
+
+main li:nth-of-type(1) {
+	margin-top: 8em;
+}
+
+main a {
+	margin-left: 16px;
+	text-decoration: none;
+	color: var(--color-starlightg);
+	border: 2px solid var(--color-starlightg);
+	border-radius: 3em;
+	padding: 8px 16px 8px 16px;
+	font-size: 14px;
+	font-family: SoDoSans,sans-serif;
+	display: block;
+	width: fit-content;
+}
+
+main p:nth-of-type(3) {
+	margin-bottom: 6em;
+}
+
+section div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: .25em;
+	height: 50%;
+}
+
+section div:nth-of-type(2) {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	gap: 1em;
+	height: 50%;
+	position: relative;
+    bottom: 2em;
+}
+
+div img {
+    width: 9em;
+    height: 5em;
+}
+
+li {
+	list-style: none;
+}

@@ -1,0 +1,80 @@
+@import url("algemeen-style.css");
+
+* {
+    margin: 0;
+}
+
+main section:first-of-type {
+    background-image: url(../images/backimg.jpg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 32em;
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+main section:first-of-type div {
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-of-type(2) h2 {
+    color: var(--color-text);
+    font: SoDoSans,sans-serif;
+    font-weight: 800;
+}
+
+main section:nth-of-type(2) p {
+    font-family: SoDoSans,sans-serif;
+    font-size: 1.125em;
+}
+
+main section P {
+    font-family: SoDoSans,sans-serif;
+}
+
+main section:nth-of-type(4) ul li {
+    list-style-type: none;
+    padding: 1em;
+}
+
+main section:nth-of-type(4) ul li h3 {
+    font-size: 20px;
+    font-family: SoDoSans,sans-serif;
+}
+
+main section:nth-of-type(4) ul li img {
+    width: 100%;
+    height: auto;
+}
+
+main section:nth-of-type(4) ul li a {
+    border: 2px solid var(--color-starlightg);
+    text-decoration: none;
+    color: var(--color-starlightg);
+    border-radius: 2em;
+    padding: .5em 1em;
+    display: block;
+    width: fit-content;
+    font-size: 1em;
+}
+
+main section:nth-of-type(6) {
+    display: flex;
+}
+
+main section:nth-of-type(7) {
+    display: flex;
+}
+
+main section:nth-of-type(8) {
+    display: flex;
+}
+
+main section:nth-of-type(9) {
+    display: flex;
+}

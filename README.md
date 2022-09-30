@@ -69,15 +69,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Door de tap te gebruiken kun je door alle links en buttons doorheen.
+  Als je door de hamburger menu heen tapt dan ga je uiteindelijk verder naar de website en dus niet terug naar het kruisje om het menu weg te halen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met het schokapparaat ging alles goed ik denk dat er makkelijk op de knoppen te drukken is.
+ 
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
@@ -116,24 +116,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik wil van de eerste pagina met grid werken om de content zonder dat ze vast op de background image staan.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1    
+  | student 2
+  | student 3
+
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - Aria labels gebruiken voor links met plaatjes.
+  - Heb de grid besproken bet mijn groepje en begrijp al wat meer van.
   - nog een punt
   - ...
 
@@ -149,15 +148,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het grid voor de pagina blijft een beetje moeillijk om te begripen en heb ik weer lopen kloten omdat het niet hellemaal stond hoe ik het wilde.
+  Daarnaast heb ik aan de hamburger menu gezet met een kleine verandering nu er alleen maar voor zorgen dat er ook iets uitklapt.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Joni           | Rosalie            | Sjoerd       | Aset             |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | CSS            | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
@@ -191,19 +191,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Net als de originele website kun je door alles links en buttons door heen tappen.
+  Er zit een soort van volgorde in als je er doorheen tapt alleen net als de originele website ga je niet terug  
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Omdat de styling bijna het zelfde is als je de originele pagina kun je er nu ook weer makkelijk door heen.
+  Ik denk achteraf gezien is het voormijn website handiger om meer naar kleuren en sceenreader te kijken.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Door de bleur is sommige tekst moeillijk om te lezen. Nog steeds geen Dark Mode
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -219,18 +221,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  De laatste paar stappen gaan super goed.
+  Het is vooral nog een kwestie van de kleine styling en ervoor zorgen dat de CSS er tip top uitziet.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Rosalie        | Joni               | Sjoerd       | Aset             |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Darkmode       | Summary details    |              | is ziek komt     |
+  |                | stylen.            |              | niet             |
+  | ...            | Hamburgermenu focus|              | ...              |
+                     
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
