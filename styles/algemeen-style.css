@@ -12,7 +12,7 @@
 } 
 
 
- button, summary {
+ button, summary, a {
 	cursor: pointer;
 }
 
@@ -30,10 +30,19 @@
 	--color-warmneutraal:#f2f0eb;
 	--color-coolneutraal:#f9f9f9;
 	--color-tekst:#6c6c6c;
-
-
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-text: #ff6f17;
+		--color-wit: #000;
+		--color-coolneutraal:#1e3932;
+		--color-warmneutraal: #000;
+		--color-tekst: #fff;
+		--color-starlightg:#ff6f17;
+
+	}
+}
 
 /****************/
 /* JOUW STYLING */
@@ -51,58 +60,31 @@ footer {
 	margin-top: 2em;
 }
 
-hr {
-	margin: 1em;
-}
-
 nav {
 	background-color: var(--color-wit);
 }
 
-img {
-	width: 5em;
-	height: 3em;
-}
-
-h1 {
-	color:var(--color-wit) ;
-	font-size: 1.25em;
-	font-family: SODO Sans,system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;;
-	font-weight: 800;
-	margin-left: 1em;
-	margin-right: 1em;
-	letter-spacing: 1px;
-}
-
-h2 {
-	color:var(--color-text) ;
-	margin-top: 1.5em;
-	font-size: 1.69em;
-	font-family: SoDoSans,sans-serif;
-	font-weight: 500;
-	margin-left: 1em;
-	margin-right: 1em;
-	letter-spacing: 1px;
-}
-
-h3 {
-	margin-left: 16px;
-}
-
 p {
 	color:var(--color-tekst);
-	margin-top: 1.5em;
-	margin-left: 16px;
-	margin-right: 16px;
-	margin-bottom: 16px;
+	font-family: SoDoSans,sans-serif;
+	font-size: 1.1em;
+}
+
+a {
+	font-family: SoDoSans,sans-serif;
+}
+
+details {
+	display: flex;
+	flex-direction: column;
 }
 
 header nav button {
 	display: grid;
 	place-items: center;
 	border-radius:50%;
-	width: 3em;
-	height: 3em;
+	width: 4em;
+	height: 4em;
 	border: none;
 	background: none;
 }
@@ -110,9 +92,9 @@ header nav button {
 header nav button span {
 	grid-row-start:1;
     grid-column-start:1;
-	width: 1.2em;
-	height: .2em;
-	background-color:red;
+	width: 1.3em;
+	height: .1em;
+	background-color: var(--color-text);
 	transition-duration:.5s;
 }
 
@@ -139,10 +121,12 @@ header nav button.iconchange span:nth-of-type(3) {
 header nav div {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	padding: .5em;
 }
 
 header nav div img {
-	width: 5em;
+	width: 5.3em;
 	height: 3em;
 }
 
@@ -150,7 +134,7 @@ header nav section {
 	position:fixed;
 	left:0;
 	right:0;
-	top:3em;
+	top:4em;
 	bottom:0;
 	transform:translatex(100%);
 	transition: transform .3s;
@@ -159,44 +143,6 @@ header nav section {
 
 header nav section.MenuOpen{
 	transform:translatex(15%);
-}
-
-header nav div a:focus {
-	border: 3px solid var(--color-starbucks);
-}
-
-header nav div button:focus {
-	border: 3px solid var(--color-starbucks);
-	border-radius: 0;
-}
-
-header nav section a:focus {
-	border: 3px solid var(--color-starbucks);
-}
-
-header nav section summary:focus {
-	border: 3px solid var(--color-starbucks);
-}
-
-header nav div a:hover {
-	border: 3px solid var(--color-starbucks);
-}
-
-header nav div button:hover {
-	border: 3px solid var(--color-starbucks);
-	border-radius: 0%;
-}
-
-header nav section a:hover {
-	border: 3px solid var(--color-starbucks);
-}
-
-header nav section summary:hover {
-	border: 3px solid var(--color-starbucks);
-}
-
-header nav section ul li {
-    list-style: none;
 }
 
 header nav section {
@@ -214,33 +160,47 @@ header nav section ul {
 header nav section a{
 	text-decoration: none;
 	color: var(--color-text);
-	font-size: 18px;
-	font-family: SoDoSans,sans-serif;
+	font-size: 1.125em;
 
 }
+
+header nav section ul li {
+	list-style-type: none;
+}
+
+header nav section summary {
+	list-style: none;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+header nav section summary img {
+	width: 1.5em;
+	height: 1.5em;
+}
+
 
 footer {
 	padding: 1em;
-}
-
-footer details {
 	display: flex;
 	flex-direction: column;
-	margin-top: 2em;
+	gap: 1.5em;
 }
+
 footer details:nth-of-type(1) {
 	margin-top: 4em;
+	/* hier nog extra margin gezet om nog meer ruimte te crearen */
 }
 
 footer summary {
-	font-size: 23px;
+	font-size: 1.4375em;
 }
 
 footer a {
 	text-decoration: none;
 	color: var(--color-tekst);
-	font-family:SoDoSans,sans-serif;
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: 500;
 	margin-top: 2em;
 }
@@ -249,7 +209,7 @@ footer ul:nth-of-type(1) {
 	display: flex;
 	flex-direction: row;
 	justify-self: start;
-	padding-left: 1em;
+	gap: 1em;
 }
 
 footer ul li {
@@ -257,33 +217,89 @@ footer ul li {
 }
 
 footer ul li a img {
-	width: 36px;
-	height: 36px;
-	margin-left: 1em;
+	width: 2.5em;
+	height: 2.5em;
 }
 
 footer ul:nth-of-type(2) li a {
 	text-decoration: none;
 	color: var(--color-text);
-	font-family:SoDoSans,sans-serif;
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: 500;
 	display: flex;
-	gap: 2em;
 }
 
 footer details summary {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
 }
 
 footer details summary img {
 	width: 1em;
 	height: 1em;
+
+	transition: .5s;
 }
 
+footer details[open] summary img {
+	transform:rotate(.5turn);
+}
 
+h6 {
+	transform:translateY(-9999em);
+}
+
+footer ul li a img:hover {
+	animation: Springen 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes Springen {
+	from {
+		transform: rotate(90deg);
+	}
+	50% {
+		transform: rotate(180deg)
+	}
+	to {
+		transform: rotate(360deg)
+	}
+}
+
+main section:nth-of-type(1) a {
+	color:var(--color-wit);
+	text-decoration: none;
+	border: 0.09375em solid var(--color-wit);
+	border-radius: 6em;
+	font-size: .87em;
+	font-weight: 600;
+	text-align: center;
+	width: fit-content;
+	margin-left: 1.5em;
+	padding: .5em 1em;
+}
+
+main section:nth-of-type(1) a:hover {
+	color:var(--color-starlightg);
+	border: 0.09375em solid var(--color-starlightg);
+	background-color: var(--color-wit);
+	
+}
+
+main section:nth-of-type(1) a:focus {
+	color:var(--color-starlightg);
+	border: 0.09375em solid var(--color-starlightg);
+	background-color: var(--color-wit);
+}
+
+main section:nth-of-type(1) a:active {
+	color:var(--color-wit);
+	border: 0.09375em solid var(--color-wit);
+	background-color: var(--color-starlightg);
+}
 
 
 

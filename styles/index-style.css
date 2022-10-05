@@ -1,20 +1,12 @@
 @import url("algemeen-style.css");
 
-main img {
-	width: 100%;
-	height: auto;
-}
-
-main img:nth-of-type(2) {
-	margin-left: 16px;
-	margin-right: 16px;
-	margin-top: 1em;
-	margin-bottom: 2em;
+li {
+	list-style: none;
 }
 
 main section:nth-of-type(1) {
     gap: 1.5em;
-    height: 498.66px;
+    height: 29em;
 	width: 100%;
     background-image: linear-gradient(var(--color-starbucks),var(--color-housegreen));
     display: flex;
@@ -23,59 +15,19 @@ main section:nth-of-type(1) {
 	padding-block: 1em;
 }
 
-
- main section:nth-of-type(1) a {
-	color:var(--color-wit);
-	text-decoration: none;
-	border: 1.5px solid var(--color-wit);
-	border-radius: 6em;
-	font-family: SoDoSans,sans-serif;
-	font-size: .87em;
-	font-weight: 600;
-	text-align: center;
-	width: fit-content;
-}
-
-main h2:nth-of-type(2) {
+main section div h1 {
+	color:var(--color-wit) ;
+	font-size: 1.25em;
+	font-family: SODO Sans,system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;;
+	font-weight: 800;
 	margin-left: 1em;
 	margin-right: 1em;
-	color: var(--color-text);
-	font-size: 1em;
-	font-family: SoDoSans,sans-serif;
-	letter-spacing: 1px;
-	font-weight: 600;
+	letter-spacing: 0.0625em;
 }
 
-
-main li {
-	box-shadow: 3px 3px 3px var(--color-warmneutraal);
-	margin-left: 1em;
-	margin-right: 1em;
-	list-style: none;
-	padding-bottom: 1em;
-	background-color:var(--color-wit);
-	margin-bottom: 2em;
-}
-
-main li:nth-of-type(1) {
-	margin-top: 8em;
-}
-
-main a {
-	margin-left: 16px;
-	text-decoration: none;
-	color: var(--color-starlightg);
-	border: 2px solid var(--color-starlightg);
-	border-radius: 3em;
-	padding: 8px 16px 8px 16px;
-	font-size: 14px;
-	font-family: SoDoSans,sans-serif;
-	display: block;
-	width: fit-content;
-}
-
-main p:nth-of-type(3) {
-	margin-bottom: 6em;
+main section div:first-of-type img {
+	width: 9em;
+	height: 5em;
 }
 
 section div:nth-of-type(1) {
@@ -96,11 +48,152 @@ section div:nth-of-type(2) {
     bottom: 2em;
 }
 
-div img {
-    width: 9em;
-    height: 5em;
+
+main img {
+	width: 100%;
+	height: auto;
 }
 
-li {
+main section:nth-of-type(2) {
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+main section:nth-of-type(2) h2 {
+	color:var(--color-text) ;
+	margin-top: 1.5em;
+	font-size: 1.69em;
+	font-weight: 500;
+	letter-spacing: 0.0625em;
+	font-family: SoDoSans,sans-serif;
+}
+
+main section:nth-of-type(3) {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+main section:nth-of-type(3) h2 {
+	font-family: SoDoSans,sans-serif;
+	font-size: 1.1em;
+	font-weight: 600;
+	margin-top: 5em;
+	letter-spacing: .09em;
+	color: var(--color-text);
+	font-size: 1em;
+}
+
+
+main img:nth-of-type(2) {
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+main section ul {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+}
+
+
+main li {
+	box-shadow: 0.1875em 0.1875em 0.1875em var(--color-warmneutraal);
+	margin-left: 1em;
+	margin-right: 1em;
 	list-style: none;
+	padding-bottom: 1em;
+	background-color:var(--color-wit);
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+main section ul li h3 {
+	font-family: SoDoSans,sans-serif;
+	font-size: 1.25em;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+main section ul li p {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+main section ul li a {
+	margin-left: 1em;
+	text-decoration: none;
+	color: var(--color-starlightg);
+	border: 2px solid var(--color-starlightg);
+	border-radius: 3em;
+	padding: .5em 1em;
+	font-size: 0.875em;
+	font-family: SoDoSans,sans-serif;
+	display: block;
+	width: fit-content;
+}
+
+main section ul li a:hover {
+	color: var(--color-wit);
+	border: 2px solid var(--color-wit);
+	background-color: var(--color-starlightg);
+}
+
+main section ul li a:focus {
+	color: var(--color-wit);
+	border: 2px solid var(--color-wit);
+	background-color: var(--color-starlightg);
+}
+
+main section ul li a:active {
+	color: var(--color-wit);
+	border: 2px solid var(--color-wit);
+	background-color: var(--color-starlightg);
+}
+
+
+
+main li:nth-of-type(1) {
+	margin-top: 8em;
+}
+
+section:nth-of-type(3) {
+	padding: 1em;
+}
+
+section:nth-of-type(4) {
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+section:nth-of-type(4) a {
+	text-decoration: none;
+	color: var(--color-starlightg);
+	border: 2px solid var(--color-starlightg);
+	border-radius: 3em;
+	padding: .5em 1em;
+	font-size: 0.875em;
+	font-family: SoDoSans,sans-serif;
+	display: block;
+	width: fit-content;
+}
+
+section:nth-of-type(4) a:focus {
+	color: var(--color-wit);
+	border: 2px solid var(--color-wit);
+	background-color: var(--color-starlightg);
+}
+
+footer button {
+	background-color: #ff6f17;
+	/* Ik heb hier express gekozen om een kleur neer te zetten omdat die maar een keer op de light pagina gebruikt word. */
+	width: fit-content;
+	padding: .5em 1em ;
 }

@@ -1,49 +1,83 @@
 @import url("algemeen-style.css");
 
-* {
-    margin: 0;
+main section h2 {
+    font-family: SoDoSans,sans-serif;
+    font-size: 1.5em;
 }
 
 main section:first-of-type {
-    background-image: url(../images/backimg.jpg.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/backimg.jpg.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 32em;
     flex-direction: column;
     display: flex;
+    flex-direction: column;
     justify-content: end;
     align-items: start;
+    gap: 1em;
+    padding-left: 1.5em;
+    height: 29em;
+
+}
+
+main section:first-of-type h1 {
+    color:var(--color-wit) ;
+	font-size: 2em;
+	font-family: SoDoSans,sans-serif;
+    font-weight: 400;
 }
 
 main section:first-of-type div {
     display: flex;
     flex-direction: column;
+    gap: 1em;
+    margin-bottom: 3em;
 }
 
-main section:nth-of-type(2) h2 {
-    color: var(--color-text);
-    font: SoDoSans,sans-serif;
-    font-weight: 800;
+main section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
 }
 
 main section:nth-of-type(2) p {
-    font-family: SoDoSans,sans-serif;
-    font-size: 1.125em;
+    line-height: 1.4em;
 }
 
-main section P {
-    font-family: SoDoSans,sans-serif;
+main section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+main section:nth-of-type(3) a {
+    color: var(--color-starlightg);
+}
+
+main section:nth-of-type(3) p {
+    line-height: 1.4em;
+}
+
+main section:nth-of-type(4) ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
 }
 
 main section:nth-of-type(4) ul li {
     list-style-type: none;
     padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
 }
 
 main section:nth-of-type(4) ul li h3 {
-    font-size: 20px;
+    font-size: 1.25em;
     font-family: SoDoSans,sans-serif;
 }
 
@@ -53,28 +87,127 @@ main section:nth-of-type(4) ul li img {
 }
 
 main section:nth-of-type(4) ul li a {
-    border: 2px solid var(--color-starlightg);
-    text-decoration: none;
-    color: var(--color-starlightg);
-    border-radius: 2em;
-    padding: .5em 1em;
-    display: block;
-    width: fit-content;
+	text-decoration: none;
+	color: var(--color-starlightg);
+	border: 2px solid var(--color-starlightg);
+	border-radius: 3em;
+	padding: .5em 1em;
+	font-size: 0.875em;
+	font-family: SoDoSans,sans-serif;
+	display: block;
+	width: fit-content;
+}
+
+main section:nth-of-type(4) ul li a:focus {
+    color: var(--color-wit);
+	border: 2px solid var(--color-wit);
+	background-color: var(--color-starlightg);
+}
+
+main section:nth-of-type(4) ul li a:hover {
+    color: var(--color-wit);
+	border: 2px solid var(--color-wit);
+	background-color: var(--color-starlightg);
+}
+
+
+
+main section:nth-of-type(5) {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+main section ol {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main section h4 {
+    font-size: 1.25em;
+    font-family: SoDoSans,sans-serif;
+}
+
+main section p {
+    line-height: 1.2em;
+}
+
+main section ol li h5 {
     font-size: 1em;
+    font-family: SoDoSans,sans-serif;
+}
+
+main section ol p{
+    line-height: 1.5em;
+
 }
 
 main section:nth-of-type(6) {
+    position: relative;
+    padding: 1em 1em 1em 6em;
     display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+main section:nth-of-type(6) img {
+    position: absolute;
+    left: 0;
+    width: 6em;
+    height: 6em;
 }
 
 main section:nth-of-type(7) {
+    position: relative;
+    padding: 1em 1em 1em 6em;
     display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main section:nth-of-type(7) img {
+    position: absolute;
+    left: 0;
+    width: 6em;
+    height: 6em;
 }
 
 main section:nth-of-type(8) {
+    position: relative;
+    padding: 1em 1em 1em 6em;
     display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+main section:nth-of-type(8) img {
+    position: absolute;
+    left: 0;
+    width: 6em;
+    height: 6em;
 }
 
 main section:nth-of-type(9) {
+    position: relative;
+    padding: 1em 1em 1em 6em;
     display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
+
+main section:nth-of-type(9) img {
+    position: absolute;
+    left: 0;
+    width: 6em;
+    height: 6em;
+}
+
+hr {
+    margin: 1em;
+}
+
+
+
