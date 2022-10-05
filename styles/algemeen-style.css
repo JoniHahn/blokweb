@@ -237,6 +237,14 @@ footer details summary {
 	cursor: pointer;
 }
 
+footer details summary:hover {
+	font-size: 1.5em;
+}
+
+footer details summary:focus {
+	font-size: 1.5em;
+}
+
 footer details summary img {
 	width: 1em;
 	height: 1em;
