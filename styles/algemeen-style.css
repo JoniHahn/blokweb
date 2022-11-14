@@ -50,9 +50,18 @@
 
 /* jouw code */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+html.groot p{
+	font-size: 1.5em;
+}
+
+
 body {
   color:var(--color-text);
   background-color:var(--color-coolneutraal);
+  font-family: NotoSans,sans-serif;
 }
 
 footer {
@@ -66,12 +75,7 @@ nav {
 
 p {
 	color:var(--color-tekst);
-	font-family: SoDoSans,sans-serif;
 	font-size: 1.1em;
-}
-
-a {
-	font-family: SoDoSans,sans-serif;
 }
 
 details {
@@ -275,19 +279,6 @@ footer ul li a img:hover {
 	to {
 		transform: rotate(360deg)
 	}
-}
-
-main section:nth-of-type(1) a {
-	color:var(--color-wit);
-	text-decoration: none;
-	border: 0.09375em solid var(--color-wit);
-	border-radius: 6em;
-	font-size: .87em;
-	font-weight: 600;
-	text-align: center;
-	width: fit-content;
-	margin-left: 1.5em;
-	padding: .5em 1em;
 }
 
 main section:nth-of-type(1) a:hover {

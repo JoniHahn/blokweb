@@ -269,8 +269,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-
-
+## Herkansing
+<details open>
+<summary>Wat heb ik veranderd</summary>
+Ik heb er nu viir gezorgd dat het de font wordt meegenomen en dat het nu niet uitmaakt of de de font al automatisch hebt opgeslagen in je laptop/computer. 
+Ik heb nog wel even naar de link gekeken die u mij had doorgestuurd en met dat krijg ik steeds in error te zien. 
+Daardoor heb ik gekozen om een @import te gebruiken van google fonts.
+En ik hebe ervoor gezorgd dat je op allebei de pagina's de teskte groter en kleiner maken. Wat op een of andere manier best een strugle was.
+</details>
 
 ## Bronnenlijst
 

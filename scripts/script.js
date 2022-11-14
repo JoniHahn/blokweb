@@ -4,8 +4,12 @@ console.log("hi");
 var buttonEl = document.querySelector("header nav button");
 var navSec = document.querySelector("header nav section");
 
-var HWbut = document.querySelector("footer button")
-var imgEl = document.querySelector("main section div img")
+var HWbut = document.querySelector("footer button");
+var imgEl = document.querySelector("main section div img");
+
+var plusButton = document.querySelector("header nav div button:nth-of-type(2)");
+var minButton = document.querySelector("header nav div button:nth-of-type(3)");
+
 
 
 let toggle = true;
@@ -42,5 +46,16 @@ function Halloween () {
 }
 // https://www.youtube.com/watch?v=ydeQbbF9jbw
 
-HWbut.addEventListener("click", Halloween)
+HWbut.addEventListener("click", Halloween);
+
+function fontChangeplus() {
+    document.documentElement.classList.add("groot");
+}
+
+function fontChangemin() {
+    document.documentElement.classList.remove("groot");
+}
+
+plusButton.addEventListener("click",fontChangeplus);
+minButton.addEventListener("click",fontChangemin);
 
